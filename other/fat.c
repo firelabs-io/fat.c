@@ -1,6 +1,6 @@
 // less secure, but slightly more easier to see
 #include <stdio.h>
-void writeFat(int index, int Itable[], const char str,char* Stable[], int next){
+void writeFat(int index, int Itable[], const char* str,char* Stable[], int next){
     Itable[index] = next;   
     Stable[index] = str;
 }
