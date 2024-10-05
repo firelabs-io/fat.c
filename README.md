@@ -30,11 +30,19 @@ with prints:
 
 works by  goning to desired index, replace with the string, and put next index, you can see like this:
 
-**before:** 0 | -1 | ""
-            1 | -1 | ""
+**before:**
+| Cluster Index | FAT Value | Data Content |
+|---------------|-----------|--------------|
+|       0       |    -1     |      ""      |
+|       1       |    -1     |      ""      |
+
             
-**after:** 0 |  1  | "Hello"
-           1 |  -1 | ""
+**after:** 
+| Cluster Index | FAT Value | Data Content |
+|---------------|-----------|--------------|
+|       0       |     1     |   "Hello"    |
+|       1       |    -1     |      ""      |
+
 
 
 i hope you liked it
